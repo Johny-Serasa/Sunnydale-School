@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunnydale School</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1E90FF;
+            background-color: #291313;
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .main img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            filter: brightness(75%);
+        }
+
+       .welcome{
+        text-align: center;
+       }
+        .mission {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .events{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .lista {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 15px; /* Espaço entre os itens */
+            margin-top: 20px;
+        }
+
+        .evento {
+            border: 2px solid #1E90FF; /* Borda azul */
+            padding: 20px 30px;
+            background-color: #f0f8ff; /* Fundo claro */
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+
+        .last-one{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 15px; /* Espaço entre os itens */
+            margin-top: 20px;
+            background-color: #291313;
+            color: #1E90FF;
+        }
+
+        .last-one p{
+            color: #f0f8ff;
+            margin-top: 5px;
+        }
+
+        h2 {
+            color: #1E90FF;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <div class="main">
+        <img src="assets/Designer (2).png" alt="calma-calma">
+    </div>
+
+    <h1>Sunnydale School</h1>
+
+    <p class="welcome">
+        Welcome to Sunnydale School, dedicated to fostering a love of learning in every student.
+    </p> 
+
+    <div class="mission">
+        <h2>Mission Statement</h2>
+        <p>Our mission is to provide a quality education that prepares all children for a successful future.</p>
+    </div>
+    
+    <div class="events">
+        <h2>Upcoming Events</h2>
+
+        <div class="lista">
+            <div class="evento">Science Fair - June 10</div>
+            <div class="evento">Art Exhibition - June 15</div>
+            <div class="evento">Sports Day - June 20</div>
+        </div>
+
+    </div>
+
+   <div class="last-one"> 
+        <h2>Contact Us: </h2>
+        <p><b>Email: </b>info@sunnydaleschool.com</p>
+        <p><b>Phone:</b> 555-1234</p>
+   </div>
+
+
+</body>
+</html>
